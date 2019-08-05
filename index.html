@@ -1,0 +1,207 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/colorbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet"> 
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header class="site-header">
+    <div class="hero">
+      <div class="contenido-header">
+       
+        <div class="informacion-evento">
+          <div class="clearfix">
+              <p class="fecha"><i class="fas fa-calendar-alt"></i> 22 Jul-2 Dec</p>
+              <p class="ciudad"><i class="fas fa-map-marker-alt"></i> La Paz, Bo</p>
+          </div>
+          <h1 class="nombre-sitio">Cálculo Numérico Programación</h1>
+          <p class="slogan">FIS <span>- 243</span></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="barra">
+    <div class="contenedor clearfix">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo PythonScience">
+      </div>
+      <div class="menu-movil">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navegacion-principal">
+        <a href="./proyecto.html">Proyectos</a>
+        <a href="./material.html">Material</a>
+      </nav>
+    </div><!--Contenedor-->
+  </div><!--Barra-->
+  <section class="seccion contenedor">
+    <h2>Curso de Cálculo Numérico</h2>
+    <p>En está página encontrarás los apuntes de clases, programas, vídeos tutorial y los proyectos de cada materia.</p>
+  </section><!--seccion-->
+  <section class="programa">
+    <div class="contenedor-video">
+      <video autoplay loop muted poster="./img/bg-talleres.jpg">
+          <source src="./VideosFondo/video/video.mp4" type="video/mp4">
+          <source src="./VideosFondo/video/video.webm" type="video/webm">
+          <source src="./VideosFondo/video/video.ogv" type="video/ogv">
+      </video>
+    </div><!--contenedor-video-->
+    <div class="contenido-programa">
+      <div class="contenedor">
+        <div class="programa-evento">
+          <h2>Horarios del Curso</h2>
+          <nav class="menu-programa">
+            <a href="#moduloI"><i class="fa fa-code"></i> Clases</a>
+            <a href="#moduloII"><i class="fa fa-comment"></i> Consultas</a>
+          </nav>
+          <div id="moduloI" class="info-curso ocultar clearfix">
+            <div class="detalle-evento">
+              <h3>Práctica y Programación</h3>
+              <p><i class="fa fa-clock"></i> 13:00-15:00 hrs</p>
+              <p><i class="fa fa-calendar-alt"></i> Todos los lunes</p>
+              <p><i class="fas fa-map-marker-alt"></i> Sala de Computación</p>
+            </div>
+           
+          </div><!--Modulo I-->
+          <div id="moduloII" class="info-curso ocultar clearfix">
+            <div class="detalle-evento">
+              <h3>Consulta y Clases privadas</h3>
+              <p><i class="fa fa-clock"></i> 10:00 - 12:00 hrs</p>
+              <p><i class="fa fa-calendar-alt"></i> Todos los viernes</p>
+              <p><i class="fas fa-map-marker-alt"></i> Laboratorio de Rayos Cósmicos</p>
+            </div>
+          </div><!--Modulo II-->
+        </div><!--Programa-evento-->
+      </div><!--Contenedor---->
+    </div><!--contenido-programa-->
+  </section><!--Programa-->
+  <section class="invitados contenedor seccion">
+    <h2>Acerca de:</h2>
+    <ul class="lista-invitados clearfix">
+      <li>
+        <div class="invitado">
+          <a class="invitado-info" href="#invitado">
+          <img src="img/invitado1.jpg" alt="imagen invitado">
+          <p>Apuntes</p>
+         </a>
+        </div>
+      </li>
+      <div style="display: none;">
+        <div class="invitado-info" id="invitado">
+          <h2>Apuntes</h2>
+          <img src="img/invitado1.jpg" alt="imagen invitado">
+          <p>Los apuntes son códigos que se hacen en clases por el docente, estos estan en un repositorio de GitHub el cual se puede descargar libremente. <a href="https://github.com/Chrisferdynand/numerico-apuntes">Aquí</a> </p>
+        </div>
+      </div>
+      <li>
+        <div class="invitado">
+         <a class="invitado-info" href="#invitado2">
+          <img src="img/video.png" alt="imagen invitado">
+          <p>Vídeos</p>
+         </a>
+        </div>
+      </li>
+      <div style="display: none;">
+        <div class="invitado2-info" id="invitado2">
+          <h2>Vídeos</h2>
+          <img src="img/video.png" alt="imagen invitado">
+          <p>Los vídeos son realizados por el auxiliar, por general solo son vídeos de la solución de la práctica y algunos consejos sobre los proyectos.</p>
+        </div>
+      </div>
+      <li>
+        <div class="invitado">
+         <a class="invitado-info" href="#invitado3">
+          <img src="img/invitado2.jpg" alt="imagen invitado">
+          <p>Proyectos</p>
+         </a>
+        </div>
+      </li>
+      <div style="display: none;">
+        <div class="invitado2-info" id="invitado3">
+          <h2>Proyectos</h2>
+          <img src="img/invitado2.jpg" alt="imagen invitado">
+          <p>Los proyectos tienen una duración de 2 a 3 días, bajo control de temporizador. Deben de ser enviados mediante está página, la calificación y notas se subirán a está misma página.</p>
+        </div>
+      </div>
+    </ul> 
+  </section>
+  <div class="contador parallax">
+    <div class="contenedor">
+      <ul class="resumen-evento clearfix">
+        <li><p class="numero"></p> Clases Auxi.</li>
+        <li><p class="numero"></p> Proyectos</li>
+        <li><p class="numero"></p> Exámenes</li>
+      </ul>
+    </div><!--Contenedor---->
+  </div><!--Parallax-->
+  
+  <div class="seccion">
+    <h2>El semestre terminá en:</h2>
+    <div class="cuenta-regresiva">
+      <ul class="clearfix contenedor">
+        <li><p id="dias" class="numero"></p> días</li>
+        <li><p id="horas" class="numero"></p> horas</li>
+        <li><p id="minutos" class="numero"></p> minutos</li>
+        <li><p id="segundos" class="numero"></p> segundos</li>
+      </ul>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="contenedor clearfix">
+      <div class="footer-informacion">
+        <h3>Sobre <span>Cálculo Numérico</span></h3>
+        <p>Esta página está orientada a la materia de cálculo numérico y programación de la carrera de física.</p>
+      </div>
+      <div class="menu">
+        <h3>Redes <span>Sociales</span></h3>
+        <nav class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </nav>
+      </div>
+    </div>
+    <p class="copyright">
+        Todos los derechos reservados 2019
+    </p>
+  </footer>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.colorbox-min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
