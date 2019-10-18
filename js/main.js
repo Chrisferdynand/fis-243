@@ -5,6 +5,12 @@ $(function(){
             $('#minutos').html(event.strftime('%M'));
             $('#segundos').html(event.strftime('%S'));
         });
+        $('.cuenta-regresiva-proyecto').countdown('2019/10/20 20:00:00', function(event){
+            $('#dias').html(event.strftime('%D'));
+            $('#horas').html(event.strftime('%H'));
+            $('#minutos').html(event.strftime('%M'));
+            $('#segundos').html(event.strftime('%S'));
+        });
         //Menu Fijo 
         var windowheight= $(window).height();
         var barraAltura= $('.barra').innerHeight();
