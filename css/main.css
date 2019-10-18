@@ -620,6 +620,19 @@ div.cuenta-regresiva ul li{
         float: left;
     }
 }
+/** Cuenta Regresiva Proyecto**/
+div.cuenta-regresiva-proyecto ul li{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+@media only screen and (min-width: 768px){
+    div.cuenta-regresiva-proyecto ul li{
+        width: 25%;
+        float: left;
+    }
+}
 /** Footer **/
 footer{
     background-color: #353535;
@@ -657,6 +670,37 @@ p.copyright{
     color: #ffffff;
     margin: 20px 0 0 0;
     text-align: center;
+}
+/*BOTONES PROYECTO*/
+div.proyecto a{
+    display: block;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    position: relative;
+    padding-bottom: 10px;
+    /*border: 1px solid #fe4918;*/
+}
+@media only screen and (min-width: 768px){
+  
+    div.proyecto a{
+        margin: auto;
+        padding: 20px 20px;
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+}
+/*Videos Material*/
+div.videos iframe{
+    padding: 20px;
+    display: block;
+    margin: auto;
 }
 /* ==========================================================================
    Helper classes
