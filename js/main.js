@@ -1,11 +1,11 @@
 $(function(){
-        $('.cuenta-regresiva').countdown('2019/12/3 00:00:00', function(event){
+        $('.cuenta-regresiva').countdown('2019/12/20 00:00:00', function(event){
             $('#dias').html(event.strftime('%D'));
             $('#horas').html(event.strftime('%H'));
             $('#minutos').html(event.strftime('%M'));
             $('#segundos').html(event.strftime('%S'));
         });
-        $('.cuenta-regresiva-proyecto').countdown('2019/10/20 20:00:00', function(event){
+        $('.cuenta-regresiva-proyecto').countdown('2019/12/16 08:00:00', function(event){
             $('#dias').html(event.strftime('%D'));
             $('#horas').html(event.strftime('%H'));
             $('#minutos').html(event.strftime('%M'));
